@@ -1,4 +1,4 @@
-// SeachBar.js
+// UPDATED NAME SeachBar.js
 import { useState } from 'react'
 
 function SearchBar(props) {
