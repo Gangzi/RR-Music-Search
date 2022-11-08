@@ -1,4 +1,4 @@
-// SeachBar.js
+// corrected file name SeachBar.js
 import { useState } from 'react'
 
 function SearchBar(props) {
