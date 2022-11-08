@@ -1,11 +1,11 @@
-import { useState, useRef } from 'react'
+import { useEffect,useState, useRef } from 'react'
 import Gallery from './components/Gallery'
 import SearchBar from './components/SearchBar'
 import { DataContext } from './context/DataContext'
 import { SearchContext } from './context/SearchContext'
 
 const App = () => {
- 
+    let [search, setSearch] = useState('')
     let [data, setData] = useState([])
     let [message, setMessage] = useState('Search for Music!')
 
